@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(./assets/img/background-image.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.content {
+    margin-bottom: 300px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    max-width: 1440px;
+    margin:auto;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #242424;
+    text-decoration: none;  
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    color: #5c5c5c;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.avatar {
+    border-radius: 100%;
+    width: 234px;
+    display: inline;
+    margin-left: 20%;
+}
+
+.name {
+    display: inline;
+    width: 40%;
+    text-align: left;
+    float: right;
+    height: 50%;
+}
+
+.section {
+    padding-top: 60px;
+}
+
+.contacts-list {
+    padding-left: 0;
+}
+
+.contacts-item {
+    list-style: none;
+}
+
+.code-example {
+    font-family: Courier, monospace;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.github-icon {
+    width: 150px;
+    height: 150px;
+}
+
+.rs-school {
+    width: 300px;
+}
